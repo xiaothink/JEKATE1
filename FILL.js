@@ -3,8 +3,8 @@
 // @namespace    http://tampermonkey.net/
 // @version      6.41
 // @description  try to take over the world!
-// @updateURL    https://raw.githubusercontent.com/xiaothink/JEKATE1/main/FILL.js
-// @downloadURL  https://raw.githubusercontent.com/xiaothink/JEKATE1/main/FILL.js
+// @updateURL    https://raw.githubusercontent.com/xiaothink/JEKATE1/main/FILL.user.js
+// @downloadURL  https://raw.githubusercontent.com/xiaothink/JEKATE1/main/FILL.user.js
 // @author       You
 // @match        http*://*/*
 // @run-at       document-end
