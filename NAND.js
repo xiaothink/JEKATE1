@@ -1,14 +1,16 @@
 // ==UserScript==
-// @name         MALINGGGG
+// @name         NAND
 // @namespace    http://tampermonkey.net/
-// @version      3.29
+// @version      4.37
 // @description  try to take over the world!
+// @updateURL    https://raw.githubusercontent.com/xiaothink/JEKATE1/main/NAND.js
+// @downloadURL  https://raw.githubusercontent.com/xiaothink/JEKATE1/main/NAND.js
 // @author       You
 // @match        http*://*/*
 // @run-at       document-end
+// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        GM.setValue
 // @grant        GM.getValue
-// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        window.close
 // @grant        GM_xmlhttpRequest
 // @connect      raw.githubusercontent.com
