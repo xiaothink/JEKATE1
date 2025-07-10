@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FILL
 // @namespace    http://tampermonkey.net/
-// @version      4.38
+// @version      4.39
 // @description  try to take over the world!
 // @updateURL    https://raw.githubusercontent.com/xiaothink/JEKATE1/main/FILL.js
 // @downloadURL  https://raw.githubusercontent.com/xiaothink/JEKATE1/main/FILL.js
@@ -19,7 +19,7 @@
 
 
 /*======================================================================Paste Script Tampermonkey di sini===============================================================*/
-asddsads
+
 
 
 function generateInvisible(length = 5) {
