@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FILL
 // @namespace    http://tampermonkey.net/
-// @version      7.41
+// @version      6.41
 // @description  try to take over the world!
 // @updateURL    https://raw.githubusercontent.com/xiaothink/JEKATE1/main/FILL.user.js
 // @downloadURL  https://raw.githubusercontent.com/xiaothink/JEKATE1/main/FILL.user.js
