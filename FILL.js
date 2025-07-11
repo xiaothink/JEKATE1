@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FILL
 // @namespace    http://tampermonkey.net/
-// @version      4.39
+// @version      4.40
 // @description  try to take over the world!
 // @updateURL    https://raw.githubusercontent.com/xiaothink/JEKATE1/main/FILL.js
 // @downloadURL  https://raw.githubusercontent.com/xiaothink/JEKATE1/main/FILL.js
@@ -464,7 +464,7 @@ async function botKoment(mutatin) {
                         }
                     }
 
-                    GM.setValue("group_" + grouptToPost, true);
+                    GM.setValue("group_" + grouptToPost, false);
                     GM.setValue("group_"+grouptToPost+"_expire", Date.now() + EXPIRATION_MS);
                     showNotification("Komentar Sudah Terkirim : " + commentToPost);
                     startAutoTask();
