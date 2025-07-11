@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WAN
 // @namespace    http://tampermonkey.net/
-// @version      4.37
+// @version      4.38
 // @description  try to take over the world!
 // @updateURL    https://raw.githubusercontent.com/xiaothink/JEKATE1/main/WAN.js
 // @downloadURL  https://raw.githubusercontent.com/xiaothink/JEKATE1/main/WAN.js
@@ -122,7 +122,7 @@ var Comment30 = generateInvisible() + 'komen30' + generateInvisible();
 
 
 
-var refresh = 40;
+var refresh = 30;
 var URLADMIN = "https://raw.githubusercontent.com/xiaothink/jktsatu-json/main/ADMIN-GROUP"
 var keyword = ["ROOM","𝗥𝗢𝗢𝗠","LOMBA","𝗟𝗢𝗠𝗕𝗔","𝐋𝐎𝐌𝐁𝐀","LIMBA","ROM","R00M","login","𝐑𝐎𝐎𝐌","HONGKONG","SINGAPUR","nemo","l0mb4","lomb4","l0mba","𝗥𝟬𝟬𝗠","𝗟𝟬𝗠𝗕𝗔"]
 var Backlist =["pemenang lomba","rekap","natidulu","room lomba freebet","prediksi","result","juara lomba","r3k4p","r3kap","rek4p","undang" ]
@@ -463,7 +463,7 @@ async function botKoment(mutatin) {
                         }
                     }
 
-                    GM.setValue("group_" + grouptToPost, true);
+                    GM.setValue("group_" + grouptToPost, false);
                     GM.setValue("group_"+grouptToPost+"_expire", Date.now() + EXPIRATION_MS);
                     showNotification("Komentar Sudah Terkirim : " + commentToPost);
                     startAutoTask();
